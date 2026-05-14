@@ -1,0 +1,29 @@
+
+/* ini CSS buat Home Page */
+
+/* header */
+header {
+    font-family: Papyrus, Helvetica, Tahoma;
+    margin-bottom: 18em;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+/* header main content */
+#mainHeader {
+    margin-top: 8em;
+    padding-left: 4em;
+    padding-right: 4em;
+    justify-content: space-around;
+}
+    #headTitle {
+        font-size: 2rem;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+    }
+        #headSubtitle {
+            font-size: 1rem;
+            margin-top: -3em;
+        }
+/* header end */

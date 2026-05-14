@@ -1,0 +1,47 @@
+
+/* ini CSS buat semua page (universal) */
+
+html {
+    background-color: #fffbec;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: Helvetica, Tahoma;
+}
+
+/* customization */
+.titleText {
+    text-align: center;
+}
+
+/* span */
+.linkText {
+    text-decoration: none;
+    color: inherit;
+}
+.blueHL {
+    color: #0073d8;
+}
+.grayHL {
+    color: #8d8d8d;
+}
+
+/* nav sections */
+.nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .navLogo {
+        max-width: 128px;
+        height: auto;
+    }
+/* nav end */
+
+
