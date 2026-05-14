@@ -1,5 +1,58 @@
 html {
-    background-color: #FFFFF0;
-    font-size: 16px;
+    background-color: #fffbec;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* span */
+.blueHL {
+    color: #0073d8;
+}
+.grayHL {
+    color: #8d8d8d;
+}
+
+/* nav sections */
+nav {
+    background: #faf9f6;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 32px;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+
+
+/* header */
+header {
+    margin-bottom: 4rem;
+    justify-content: center;
+    text-align: center;
+}
+/* header corner logo */
+    #logoHeader {
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        margin-bottom: 4rem;
+        text-align: left;
+    }
+/* header main content */
+    #mascotHeader {
+        max-width: 10rem;
+        height: auto;
+    }
+    #headSubtitle {
+        margin-top: -1rem;
+    }
+/* header end */
