@@ -2,7 +2,7 @@
 /* ini CSS buat semua page (universal) */
 
 html {
-    background-color: #fffbec;
+    background-color: #f8f5f0;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -11,10 +11,15 @@ html {
     font-family: Helvetica, Tahoma;
 }
 
-/* customization */
-.titleText {
-    text-align: center;
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
 }
+::-webkit-scrollbar-thumb {
+    background: #0334d7;
+}
+
+/* customization */
 
 /* span */
 .linkText {
@@ -22,7 +27,7 @@ html {
     color: inherit;
 }
 .blueHL {
-    color: #0073d8;
+    color: #0334d7;
 }
 .grayHL {
     color: #8d8d8d;
