@@ -1,11 +1,14 @@
 
 /* ini CSS buat Home Page */
+
 @font-face {
     font-family: "Baloo";
     src: url("../fonts/Baloo/Baloo-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+
+
 /* header */
 header {
     font-family: "Baloo";
@@ -139,9 +142,9 @@ header {
     color: var(--color-text-secondary);
     background: var(--color-background-secondary);
 }
-.tag.red {background: #fcebeb; color: #a32d2d; border-color: #f09595;}
-.tag.blue {background: #e6f1fb; color: #185fa5; border-color: #85b7eb;}
-.tag.amber {background: #faeeda; color: #854f0b; border-color: #ef9f27;}
+/* .tag.red {background: #fcebeb; color: #a32d2d; border-color: #f09595;} */
+/* .tag.blue {background: #e6f1fb; color: #185fa5; border-color: #85b7eb;} */
+/* .tag.amber {background: #faeeda; color: #854f0b; border-color: #ef9f27;} */
 
 /* mobile layou */
 @media (max-width: 520px) {
