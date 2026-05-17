@@ -9,10 +9,12 @@
 }
 
 
+
 /* header */
 header {
+    
     font-family: "Baloo";
-    margin-bottom: 16em;
+    margin-bottom: 20em;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -22,7 +24,7 @@ header {
 }
 /* header main content */
 #mainHeader {
-    margin-top: 3m;
+    margin-top: 6em;
     padding-left: 4em;
     padding-right: 4em;
     justify-content: space-around;
@@ -33,7 +35,7 @@ header {
     }
         #headSubtitle {
             font-size: 1.5rem;
-            margin-top: -2em;
+            margin-top: -1rem;
         }
 /* header end */
 

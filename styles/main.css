@@ -1,13 +1,22 @@
 
 /* ini CSS buat semua page (universal) */
 
+/* HTML border box */
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 :root {
     --color-background-primary: #3f3e3c;
     --color-backgrounds-secondary: #f8f5f0;
-    --color-background-info: #f8f5f0;
 
     --color-text-primary: #0334d7;
     --color-text-secondary: #f8f5f0;
+
+    --color-background-info: #f8f5f0;
     --color-text-info: #3f3e3c;
 
     --color-border-secondary: #0334d7;
@@ -16,6 +25,7 @@
 
 
 html {
+    scroll-behavior: smooth;
     background-color: #f8f5f0;
     margin: 0;
     padding: 0;
@@ -30,7 +40,7 @@ html {
     background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    background: #0334d7;
+    background: transparent;
 }
 
 /* customization */
@@ -52,7 +62,7 @@ html {
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     display: flex;
     align-items: center;
     justify-content: space-between;

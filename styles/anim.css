@@ -1,0 +1,25 @@
+
+
+/* header anim */
+@keyframes slide-bottom {
+    0% {transform: translateY(100px);}
+    100% {transform: translateY(0);}
+}
+.slide-bottom {
+	animation: slide-bottom 0.75s;
+}
+
+.slide-section.visible {
+    animation: slide-bottom 0.75s;
+}
+
+@keyframes slide-left {
+    100% {transform: translateX(0);}
+    0%{transform: translateX(200px);}
+}
+.slide-left {
+    animation: slide-left 0.75s;
+}
+
+
+/* section slide animation */
